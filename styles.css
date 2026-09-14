@@ -1,2 +1,71 @@
 
 /* Your CSS Code here. */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+	flex-direction:start;
+    flex-wrap: wrap;
+    gap: 8px;
+
+    padding: 25px 50px;
+}
+
+/* Common box */
+.box {
+    width: 100px;
+    height: 100px;
+
+    font-size: 40px;
+}
+
+/* Colors */
+.box1 {
+    background-color: red;
+}
+
+.box2 {
+    background-color: blue;
+}
+
+.box3,
+.box4,
+.box5,
+.box6,
+.box7 {
+    background-color: green;
+}
+
+
+/* Flexbox order */
+.box3 {
+    order: 1;
+}
+
+.box4 {
+    order: 2;
+}
+
+.box5 {
+    order: 3;
+}
+
+.box6 {
+    order: 4;
+}
+
+.box7 {
+    order: 5;
+}
+
+.box1 {
+    order: 6;
+}
+
+.box2 {
+    order: 7;
+}
